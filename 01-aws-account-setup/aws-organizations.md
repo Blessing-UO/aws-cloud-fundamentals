@@ -1,3 +1,11 @@
+# AWS Organization Setup
+
+Note: Screenshots have been sanitized to remove sensitive account information.
+
+This guide will walk you through creating AWS Organization accounts, IAM Identity Center Users, groups, and permission sets.
+
+
+
 # AWS Organization Account Creation Documentation
 
 ## Introduction
