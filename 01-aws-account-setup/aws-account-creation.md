@@ -7,7 +7,7 @@ benefits, and pricing, the next step is to create an AWS Free Tier account and s
 
 ## Step-by-Step Guide to Create an AWS Account
 
-1. Go to the AWS Free Tier page
+1. Go to the AWS Free Tier page (https://aws.amazon.com/free/)
 2. Click **Create a Free Account**
 3. Enter your email address and account name
    - Use your name or company name
