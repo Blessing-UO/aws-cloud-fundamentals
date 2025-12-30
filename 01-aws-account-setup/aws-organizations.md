@@ -81,7 +81,7 @@ Create 3 groups based on roles
 
 Adding  Permissions 
 
-![IAM permission set](images/iam-permission-set.png)
+
 
 - Log in to the console as the **root user**
 - In the search bar, type IAM Identity Center and select it.
@@ -97,7 +97,7 @@ Repeat the above process for PowerUserAccess and SystemAdministrator
 
 Setting up IAM Identity Center Users
 
-![IAM Identity Center users](images/iam-identity-center-users.png)
+
 
 - Log in as the **root user**.
 - In the search bar, type IAM Identity Center and select it.
