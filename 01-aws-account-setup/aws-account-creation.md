@@ -33,6 +33,8 @@ You can now log in to the **AWS Management Console**.
 The **root user** is the account owner and has unrestricted access.
 It will need to be secured immediately.
 
+![MFA Enabled](images/mfa-enabled.png)
+
 Steps:
 1. Go to the **IAM Dashboard**
 2. Select **Add MFA**
