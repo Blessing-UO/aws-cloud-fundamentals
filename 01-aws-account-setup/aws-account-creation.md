@@ -1,66 +1,79 @@
-# AWS Account Creation Documentation
+# Creating an AWS Free Tier Account
 
-## 1. Overview
-An AWS account is the primary container for AWS resources.
-It is created using a **root user**, which has full administrative privileges.
-
-> Best Practice: The root user should be secured and rarely used.
+After learning AWS Cloud fundamentals, service categories, and global infrastructure,
+benefits, and pricing, the next step is to create an AWS Free Tier account and start building hands-on.
 
 ---
 
-## 2. Steps to Create an AWS Account
+## Step-by-Step Guide to Create an AWS Account
 
-1. Go to the AWS sign-up page
-2. Click **Create an AWS Account**
-3. Enter:
-   - Email address
-   - Account name
-   - Password
-4. Verify email address
+1. Go to the AWS Free Tier page
+2. Click **Create a Free Account**
+3. Enter your email address and account name
+   - Use your name or company name
+4. Verify your email using the code sent to your inbox
+5. Set a strong, secure password
+6. Provide contact information:
+   - Choose **Personal** for learning/testing
+   - Choose **Professional** for business use
+7. Add a payment method (used for identity verification only)
+8. Verify your identity via phone
+9. Choose a Support Plan:
+   - **Basic** (free and recommended for beginners)
+10. Click **Complete Sign-Up**
 
----
-
-## 3. Contact & Billing Information
-
-- Enter personal or business details
-- Add a valid debit/credit card
-- Identity verification via phone or SMS
-
-> AWS Free Tier applies automatically for new accounts.
-
----
-
-## 4. Root User Security Setup (Critical)
-
-After account creation, immediately secure the root user:
-
-### 4.1 Enable MFA
-- Go to **IAM → Security credentials**
-- Enable **Multi-Factor Authentication (MFA)**
-
-### 4.2 Do NOT Use Root for Daily Tasks
-- Root user should only be used for:
-  - Account settings
-  - Billing
-  - AWS Organizations setup
+You can now log in to the **AWS Management Console**.
 
 ---
 
-## 5. Billing & Cost Management Setup
+## Secure Your Root Account with MFA (Highly Recommended)
 
-- Enable **Billing Alerts**
-- Enable **Cost Explorer**
-- Set budgets to avoid unexpected charges
+The **root user** is the account owner and has unrestricted access.
+It will need to be secured immediately.
+
+Steps:
+1. Go to the **IAM Dashboard**
+2. Select **Add MFA**
+3. Use an authenticator app such as:
+   - Google Authenticator
+   - Authy
+
+This adds an extra layer of protection against unauthorized access.
 
 ---
 
-## 6. Best Practices
-- Never share root credentials
-- Enable MFA immediately
-- Create IAM users for daily operations
+## Creating an AWS Account Alias
+
+An **Account Alias** replaces the default 12-digit AWS account ID with a
+custom, human-friendly sign-in URL.
+
+### Example
+Instead of:
+https://<account-id>.signin.aws.amazon.com/console
+
+Use:
+https://<account-alias>.signin.aws.amazon.com/console
+
+
+
+### Benefits
+- Easier to remember
+- More professional appearance
+- Simplifies login for IAM users and administrators
+
+### Steps to Create an Alias
+1. Open **IAM Dashboard**
+2. Go to **Account Settings**
+3. Click **Create Account Alias**
+4. Enter your preferred name (e.g., `blessing-cloud`)
+5. Save changes
 
 ---
 
-## 7. Summary
-AWS account creation is the foundation of cloud security and governance.
-All other AWS services depend on this initial setup.
+## Final Tip
+
+Your AWS Free Tier account opens the door to a real cloud experience —
+from compute and storage to AI, analytics, and automation.
+
+Take time to explore, learn, and **secure your environment properly**.
+
