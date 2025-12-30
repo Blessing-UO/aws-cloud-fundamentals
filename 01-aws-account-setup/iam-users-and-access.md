@@ -1,3 +1,12 @@
+# AWS IAM Users and groups set up
+
+Note: Screenshots have been sanitized to remove sensitive account information.
+
+This guide will walk you through creating AWS IAM users and groups
+
+
+
+
 # IAM Users, Groups, Roles & Policies
 
 In AWS, security starts with identity, and that is where **AWS Identity and Access Management (IAM)** comes in.
