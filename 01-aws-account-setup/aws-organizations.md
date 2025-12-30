@@ -15,6 +15,7 @@ This project focuses on:
 
 The goal is to demonstrate a secure, organized, and scalable AWS setup that aligns with best practices in cloud governance and administration.
 
+
 ## **Project Objectives**
 
 1. Create and configure an AWS Organization with 3 member accounts
@@ -28,7 +29,7 @@ The goal is to demonstrate a secure, organized, and scalable AWS setup that alig
 2. Internet Access
 3. Basic AWS Account
 
-![image.png](attachment:b15d596d-0cea-40bd-9c2e-9f89b6823fca:image.png)
+![AWS Organization Architecture](images/aws-organization-architecture.png)
 
 ### Step-by-Step Process
 
