@@ -39,6 +39,7 @@ Step 1 —  Create or Access a management account
 
 Step 2 — Create an AWS Organization account
 
+
 - Search for AWS Organization
 - Click Create an organization
 - Wait for the Organization to get created
@@ -62,7 +63,9 @@ To access it;
 - Set and confirm the password, and sign in again
 - Repeated the same process for the other organization accounts (Staging and Production)
 
-Setting up IAM Groups
+Setting up IAM Identity Center Groups
+
+![IAM Identity Center groups](images/iam-identity-center-groups.png)
 
 Create 3 groups based on roles
 
@@ -81,7 +84,7 @@ Create 3 groups based on roles
 
 Adding  Permissions 
 
-
+![IAM permission set](images/iam-permission-set.png)
 
 - Log in to the console as the **root user**
 - In the search bar, type IAM Identity Center and select it.
@@ -98,6 +101,7 @@ Repeat the above process for PowerUserAccess and SystemAdministrator
 Setting up IAM Identity Center Users
 
 
+![IAM Identity Center users](images/iam-identity-center-users.png)
 
 - Log in as the **root user**.
 - In the search bar, type IAM Identity Center and select it.
