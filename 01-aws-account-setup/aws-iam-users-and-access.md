@@ -75,7 +75,7 @@ This approach saves time and ensures **consistent access control** across your A
 
 ## How to Create an IAM Group
 
-![IAM groups](images/iam-groups.png)
+
 
 
 1. Log in to the AWS Management Console and navigate to **IAM**
