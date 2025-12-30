@@ -39,6 +39,7 @@ Step 1 —  Create or Access a management account
 
 Step 2 — Create an AWS Organization account
 
+![AWS Organization](images/aws-organization.png)
 
 - Search for AWS Organization
 - Click Create an organization
