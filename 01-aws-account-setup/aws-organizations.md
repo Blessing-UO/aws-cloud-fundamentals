@@ -81,6 +81,8 @@ Create 3 groups based on roles
 
 Adding  Permissions 
 
+![IAM permission set](images/iam-permission-set.png)
+
 - Log in to the console as the **root user**
 - In the search bar, type IAM Identity Center and select it.
 - Click Permission set
