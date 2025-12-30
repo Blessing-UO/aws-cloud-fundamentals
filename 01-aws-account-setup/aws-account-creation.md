@@ -9,18 +9,20 @@ benefits, and pricing, the next step is to create an AWS Free Tier account and s
 
 1. Go to the AWS Free Tier page (https://aws.amazon.com/free/)
 2. Click **Create a Free Account**
-3. Enter your email address and account name
+   ![AWS Free Tier Account](images/aws-free-tier-account.png)
+
+4. Enter your email address and account name
    - Use your name or company name
-4. Verify your email using the code sent to your inbox
-5. Set a strong, secure password
-6. Provide contact information:
+5. Verify your email using the code sent to your inbox
+6. Set a strong, secure password
+7. Provide contact information:
    - Choose **Personal** for learning/testing
    - Choose **Professional** for business use
-7. Add a payment method (used for identity verification only)
-8. Verify your identity via phone
-9. Choose a Support Plan:
+8. Add a payment method (used for identity verification only)
+9. Verify your identity via phone
+10. Choose a Support Plan:
    - **Basic** (free and recommended for beginners)
-10. Click **Complete Sign-Up**
+11. Click **Complete Sign-Up**
 
 You can now log in to the **AWS Management Console**.
 
