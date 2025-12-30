@@ -58,6 +58,7 @@ https://<account-id>.signin.aws.amazon.com/console
 Use:
 https://<account-alias>.signin.aws.amazon.com/console
 
+![Account Alias](images/account-alias.png)
 
 
 ### Benefits
