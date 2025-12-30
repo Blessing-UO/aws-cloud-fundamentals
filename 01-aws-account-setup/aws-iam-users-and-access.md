@@ -32,7 +32,7 @@ IAM enables you to:
 
 ## Creating an IAM User
 
-![IAM user creation screen](../images/create-iam-user.png)
+![Create IAM user](images/create-iam-user.png)
 
 1. Sign in to AWS as the **root user**
 2. Navigate to **IAM → Users**
