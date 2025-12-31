@@ -27,6 +27,8 @@ Network security
 
 2. VPC Architecture Overview
 
+![VPC Architecture Diagram](vpc-images/vpc-architecture.png)
+
 A typical VPC architecture includes:
 
 VPC (CIDR block)
