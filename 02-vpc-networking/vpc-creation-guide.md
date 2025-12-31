@@ -235,10 +235,15 @@ Allow all traffic
 11. Validation Checklist
 
 ✔ VPC created
+
 ✔ Subnets assigned correctly
+
 ✔ IGW attached
+
 ✔ Route tables configured
+
 ✔ NAT Gateway working
+
 ✔ Security rules applied
 
 12. Best Practices
@@ -266,4 +271,5 @@ Portfolio projects
 Real-world cloud environments
 
 Author:
+
 Blessing Usifoh-Oamen
