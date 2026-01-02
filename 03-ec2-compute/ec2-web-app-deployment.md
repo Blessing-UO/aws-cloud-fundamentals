@@ -66,14 +66,12 @@ sudo systemctl status nginx
 
 Open a web browser
 
-Visit:
-
-http://<EC2-PUBLIC-IP>
-
-nginx-default-page.png
-
+Visit: http://<EC2-PUBLIC-IP>
 
 The default Nginx welcome page confirms successful installation
+
+![Nginx default page](ec2-compute-images/nginx-default-page.png)
+
 
 5. Clone the Web Application Repository
 
