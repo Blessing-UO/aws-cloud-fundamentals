@@ -122,7 +122,7 @@ Refresh the browser using the EC2 public IP address
 
 The deployed website should now be visible
 
-deployed-web-application.png
+![Deployed web application](ec2-compute-images/deployed-web-application.png)
 
 
 8. Configure DNS with Namecheap
@@ -148,3 +148,4 @@ Paste the custom domain name into a web browser
 Confirm the website loads successfully
 
 ![Mediplus deployed on KarlisCloud](ec2-compute-images/mediplus-deployed-on-karliscloud.png)
+
