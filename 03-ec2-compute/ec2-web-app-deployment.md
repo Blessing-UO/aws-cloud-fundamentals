@@ -1,6 +1,6 @@
 # Web Application Deployment on AWS EC2 Using an Existing VPC
 
-## Introduction
+# Introduction
 
 This project demonstrates how to deploy a web application on Amazon Web Services (AWS) using an **existing Virtual Private Cloud (VPC)** created in a previous project.
 
@@ -8,9 +8,8 @@ The implementation involves launching an EC2 instance within a preconfigured net
 
 Additionally, a **custom domain name** is configured to point to the hosted application, making the website publicly accessible over the Internet. This project showcases the practical deployment of cloud infrastructure, networking, security configuration, and real-world web hosting on AWS.
 
----
 
-## Project Objectives
+# Project Objectives
 
 1. Use the VPC created in the previous project to deploy resources  
 2. Launch and configure an EC2 instance in a public subnet  
@@ -19,14 +18,13 @@ Additionally, a **custom domain name** is configured to point to the hosted appl
 5. Integrate a custom domain name using DNS  
 6. Validate web access via public IP and domain name  
 
----
 
 ## Steps
 
 ### 1. Launch an EC2 Instance
 
 - Navigate to **EC2 → Instances → Launch instance**
-- Instance name: `karlis-enterprise-server`
+- Instance name: `karlis-enterprise-server.`
 - AMI: Ubuntu
 - Instance type: `t2.micro` (suitable for this project)
 - Select an existing key pair or create a new one
@@ -39,14 +37,12 @@ Additionally, a **custom domain name** is configured to point to the hosted appl
 
 ![EC2 instance launched](images/launched-instance.png)
 
----
 
 ### 2. Access the Server
 
 - Connect to the EC2 instance using **MobaXterm (SSH)**
 - Update and upgrade server packages
 
-```bash
 sudo apt update && sudo apt upgrade -y
 
 3. Install and Verify Nginx
