@@ -35,7 +35,7 @@ Additionally, a **custom domain name** is configured to point to the hosted appl
 - Attach the appropriate **security group**
 - Launch the instance
 
-![EC2 instance launched](images/ec2-instance-launched.png)
+![EC2 instance launched](ec2-compute-images/ec2-instance-launched.png)
 
 
 ### 2. Access the Server
@@ -45,7 +45,7 @@ Additionally, a **custom domain name** is configured to point to the hosted appl
 
 sudo apt update && sudo apt upgrade -y
 
-![SSH connection via MobaXterm](images/ssh-connection-mobaxterm.png)
+![SSH connection via MobaXterm](ec2-compute-images/ssh-connection-mobaxterm.png)
 
 
 3. Install and Verify Nginx
@@ -59,7 +59,7 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 sudo systemctl status nginx
 
-![Nginx active status](images/nginx-service-active.png)
+![Nginx active status](ec2-compute-images/nginx-service-active.png)
 
 
 4. Verify Nginx in the Browser
@@ -87,7 +87,7 @@ Navigate into the directory and list the contents:
 cd mediplus
 ls
 
-![Mediplus repository contents](images/mediplus-repository-contents.png)
+![Mediplus repository contents](ec2-compute-images/mediplus-repository-contents.png)
 
 
 6. Deploy Website Files to Nginx Directory
@@ -113,7 +113,7 @@ Verify the files were moved successfully:
 
 ls /var/www/html
 
-![Files moved to Nginx directory](images/mediplus-files-moved-to-nginx.png)
+![Files moved to Nginx directory](ec2-compute-images/mediplus-files-moved-to-nginx.png)
 
 
 7. Verify the Deployed Website
@@ -131,14 +131,14 @@ Log in to Namecheap
 
 Update DNS records to point the domain to the EC2 public IP address
 
-![Namecheap DNS configuration](images/namecheap-dns-configuration.png)
+![Namecheap DNS configuration](ec2-compute-images/namecheap-dns-configuration.png)
 
 
 9. Verify DNS Propagation
 
 Check DNS propagation to confirm global availability
 
-![DNS propagation results](images/dns-propagation-check.png)
+![DNS propagation results](ec2-compute-images/dns-propagation-check.png)
 
 
 10. Access the Website Using the Domain Name
@@ -147,4 +147,4 @@ Paste the custom domain name into a web browser
 
 Confirm the website loads successfully
 
-![Mediplus deployed on KarlisCloud](images/mediplus-deployed-on-karliscloud.png)
+![Mediplus deployed on KarlisCloud](ec2-compute-images/mediplus-deployed-on-karliscloud.png)
