@@ -19,9 +19,9 @@ Additionally, a **custom domain name** is configured to point to the hosted appl
 6. Validate web access via public IP and domain name  
 
 
-## Steps
+# Steps
 
-### 1. Launch an EC2 Instance
+# 1. Launch an EC2 Instance
 
 - Navigate to **EC2 → Instances → Launch instance**
 - Instance name: `karlis-enterprise-server.`
@@ -35,7 +35,7 @@ Additionally, a **custom domain name** is configured to point to the hosted appl
 - Attach the appropriate **security group**
 - Launch the instance
 
-![EC2 instance launched](images/launched-instance.png)
+![EC2 instance launched](images/ec2-instance-launched.png)
 
 
 ### 2. Access the Server
@@ -44,6 +44,9 @@ Additionally, a **custom domain name** is configured to point to the hosted appl
 - Update and upgrade server packages
 
 sudo apt update && sudo apt upgrade -y
+
+![SSH connection via MobaXterm](images/ssh-connection-mobaxterm.png)
+
 
 3. Install and Verify Nginx
 
@@ -56,6 +59,8 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 sudo systemctl status nginx
 
+![Nginx active status](images/nginx-service-active.png)
+
 
 4. Verify Nginx in the Browser
 
@@ -64,6 +69,8 @@ Open a web browser
 Visit:
 
 http://<EC2-PUBLIC-IP>
+
+nginx-default-page.png
 
 
 The default Nginx welcome page confirms successful installation
@@ -79,6 +86,8 @@ Navigate into the directory and list the contents:
 
 cd mediplus
 ls
+
+![Mediplus repository contents](images/mediplus-repository-contents.png)
 
 
 6. Deploy Website Files to Nginx Directory
@@ -104,6 +113,8 @@ Verify the files were moved successfully:
 
 ls /var/www/html
 
+![Files moved to Nginx directory](images/mediplus-files-moved-to-nginx.png)
+
 
 7. Verify the Deployed Website
 
@@ -111,18 +122,29 @@ Refresh the browser using the EC2 public IP address
 
 The deployed website should now be visible
 
+deployed-web-application.png
+
+
 8. Configure DNS with Namecheap
 
 Log in to Namecheap
 
 Update DNS records to point the domain to the EC2 public IP address
 
+![Namecheap DNS configuration](images/namecheap-dns-configuration.png)
+
+
 9. Verify DNS Propagation
 
 Check DNS propagation to confirm global availability
+
+![DNS propagation results](images/dns-propagation-check.png)
+
 
 10. Access the Website Using the Domain Name
 
 Paste the custom domain name into a web browser
 
 Confirm the website loads successfully
+
+![Mediplus deployed on KarlisCloud](images/mediplus-deployed-on-karliscloud.png)
