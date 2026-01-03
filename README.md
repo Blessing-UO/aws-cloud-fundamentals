@@ -26,28 +26,28 @@ The goal of this repository is to serve as:
 `
 aws-cloud-fundamentals/
 
-│
+
 ├── 01-aws-account-setup/
 
-│   ├── README.md
+   ├── README.md
 
-│   └── images/
+   └── images/
 
-│
+
 ├── 02-vpc-networking/
 
-│   ├── README.md
+   ├── README.md
 
-│   └── images/
+   └── images/
 
-│
+
 ├── 03-ec2-compute/
 
-│   ├── README.md
+   ├── README.md
 
-│   └── ec2-compute-images/
+   └── ec2-compute-images/
 
-│
+
 
 ├── 04-security-iam/        (upcoming)
 
@@ -55,6 +55,6 @@ aws-cloud-fundamentals/
 
 ├── 06-auto-scaling/       (upcoming)
 
-│
+
 └── README.md
 
