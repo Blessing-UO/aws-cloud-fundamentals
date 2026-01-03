@@ -10,7 +10,7 @@ The goal of this repository is to serve as:
 
 ---
 
-## 📌 What This Repository Covers
+##  What This Repository Covers
 
 - AWS account setup and best practices
 - Identity and Access Management (IAM)
@@ -27,20 +27,29 @@ The goal of this repository is to serve as:
 aws-cloud-fundamentals/
 │
 ├── 01-aws-account-setup/
+
 │   ├── README.md
+
 │   └── images/
 │
 ├── 02-vpc-networking/
+
 │   ├── README.md
+
 │   └── images/
 │
 ├── 03-ec2-compute/
+
 │   ├── README.md
+
 │   └── ec2-compute-images/
 │
 ├── 04-security-iam/        (upcoming)
+
 ├── 05-load-balancing/     (upcoming)
+
 ├── 06-auto-scaling/       (upcoming)
+
 │
 └── README.md
 
